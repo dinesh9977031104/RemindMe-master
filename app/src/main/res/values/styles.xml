@@ -1,0 +1,160 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@android:color/holo_orange_light</item>
+        <item name="backgroundcolor">#fcfcfc</item>
+        <item name="cardbackground">#ffffff</item>
+        <item name="textcolor">#808080</item>
+        <item name="tintcolor">#000000</item>
+        <item name="buttoncolor">#2196F3</item>
+        <item name="toolbarcolor">@color/colorPrimary</item>
+        <item name="android:textColorHint">?attr/textcolor</item>
+        <item name="android:windowAnimationStyle">@style/windowAnimationTransition</item>
+        <item name="alertDialogTheme">@style/dialogBoxStyle</item>
+    </style>
+
+
+    <!--<style name="dialogBoxStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">?attr/backgroundcolor</item>
+        <item name="android:textColor">?attr/textcolor</item>
+        <item name="android:textColorAlertDialogListItem">?attr/textcolor</item>
+        <item name="android:textColorSecondary">?attr/textcolor</item>
+        <item name="android:textColorPrimary">?attr/textcolor</item>
+        <item name="colorAccent">?attr/textcolor</item>
+        <item name="android:typeface">normal</item>
+    </style>-->
+
+    <!-- Dark/Night mode theme. -->
+    <style name="darktheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundcolor">#303030</item>
+        <item name="cardbackground">#424242</item>
+        <item name="textcolor">#ffffff</item>
+        <item name="tintcolor">#ffffff</item>
+        <item name="buttoncolor">#2196F3</item>
+        <item name="toolbarcolor">#000000</item>
+        <item name="android:textColorHint">?attr/textcolor</item>
+        <item name="android:windowAnimationStyle">@style/windowAnimationTransition</item>
+    </style>
+
+
+    <style name="windowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+
+    <style name="MyButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="tabItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TabLayoutTextAppearance" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+        <item name="android:selectableItemBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="ButtonBorderless" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    // modified by dinesh
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:statusBarColor">@android:color/transparent</item>-->
+    </style>
+
+    <style name="custom_tv_heading" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:color">@color/colorIconLightGray</item>
+    </style>
+
+    <style name="custom_tv_second_heading" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="custom_tv_third_heading">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="nav_header_color">
+        <item name="android:textColor">?attr/textcolor</item>
+    </style>
+
+    <style name="layout_color">
+
+    </style>
+
+    <style name="text_color">
+        <item name="android:textColor">?attr/textcolor</item>
+    </style>
+
+    <style name="spinner_type">
+        <item name="android:textColor">?attr/textcolor</item>
+    </style>
+
+    <style name="spinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:background">?attr/cardbackground</item>
+        <item name="android:popupBackground">?attr/cardbackground</item>
+    </style>
+
+    <style name="myPasscodeAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="dashboard_linear_layout_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="dashboard_circle_cardview_style">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:innerRadius">0dp</item>
+        <item name="android:shape">ring</item>
+        <item name="android:thicknessRatio">1.9</item>
+    </style>
+
+    <style name="dashboard_imageview_style">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="dashboard_textview_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+</resources>

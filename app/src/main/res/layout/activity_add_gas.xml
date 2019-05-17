@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    android:orientation="vertical"
+    tools:context="com.tekitsolutions.remindme.remindbillpay.com.tekitsolutions.software.Activity.AddNetBankingActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/toolbarcolor"
+            android:minHeight="?attr/actionBarSize"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:title="Add Account" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:background="?attr/backgroundcolor">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_card_layout_details"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/iv_drop_down"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="8dp"
+                    android:tint="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_arrow_drop_down_black_24dp" />
+
+                <ImageView
+                    android:id="@+id/iv_provider"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="8dp"
+                    android:tint="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_provider" />
+
+                <TextView
+                    android:id="@+id/inputGasProvider"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="30dp"
+                    android:layout_toRightOf="@id/iv_provider"
+                    android:background="@android:color/transparent"
+                    android:ellipsize="end"
+                    android:hint="@string/select_provider"
+                    android:textColor="?attr/textcolor"
+                    android:textColorHint="@color/colorhint"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <include
+                android:id="@+id/tv_gas_provider_error"
+                layout="@layout/row_error_textview2" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_card_layout_details"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/iv_consumer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="8dp"
+                    android:tint="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_create_black_24dp" />
+
+                <EditText
+                    android:id="@+id/inputCustomerNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@id/iv_consumer"
+                    android:background="@android:color/transparent"
+                    android:ellipsize="end"
+                    android:hint="@string/customer_number"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="15"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textAllCaps="true"
+                    android:textColor="?attr/textcolor"
+                    android:textColorHint="@color/colorhint"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <include
+                android:id="@+id/tv_gas_customer_number_error"
+                layout="@layout/row_error_textview2" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_card_layout_details"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/iv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="8dp"
+                    android:tint="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_card_holder" />
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@id/iv_name"
+                    android:background="@android:color/transparent"
+                    android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ अआइईउऊऋएऐओऔकखगघङचछजझञाटठडढणतथदधनपफबभमयरलवशषसहक्षत्रज्ञ ा ि ी ु ू ृ े ै ो ौ ं ः "
+                    android:ellipsize="end"
+                    android:hint="@string/name"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPersonName"
+                    android:maxLength="20"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="?attr/textcolor"
+                    android:textColorHint="@color/colorhint"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <include
+                android:id="@+id/tv_gas_owner_error"
+                layout="@layout/row_error_textview2" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_card_layout_details"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/iv_alias"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="8dp"
+                    android:tint="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_create_black_24dp" />
+
+                <EditText
+                    android:id="@+id/inputAliasName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@id/iv_alias"
+                    android:background="@android:color/transparent"
+                    android:ellipsize="end"
+                    android:hint="@string/alias_name"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPersonName"
+                    android:maxLength="20"
+                    android:maxLines="1"
+                    android:textAllCaps="true"
+                    android:textColor="?attr/textcolor"
+                    android:textColorHint="@color/colorhint"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <include
+                android:id="@+id/tv_gas_alias_error"
+                layout="@layout/row_error_textview2" />
+
+            <Button
+                android:id="@+id/btnConfirm"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorAccent"
+                android:imeOptions="actionDone"
+                android:text="@string/button_confirm"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

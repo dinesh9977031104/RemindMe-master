@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/australia_currency"
+        android:title="Doller - Australia"></item>
+    <item
+        android:id="@+id/brazil_currency"
+        android:title="Real - Brazil"></item>
+    <item
+        android:id="@+id/canada_currency"
+        android:title="Doller - Canada"></item>
+    <item
+        android:id="@+id/china_currency"
+        android:title="Yuan - China"></item>
+    <item
+        android:id="@+id/denmark_currency"
+        android:title="Krone - Denmark"></item>
+    <item
+        android:id="@+id/emu_currency"
+        android:title="Euro - EMU Member Countries"></item>
+    <item
+        android:id="@+id/greece_currency"
+        android:title="Drachma - Greece"></item>
+    <item
+        android:id="@+id/hong_kong_currency"
+        android:title="Doller - Hong kong"></item>
+    <item
+        android:id="@+id/india_currency"
+        android:title="Rupee - India"></item>
+    <item
+        android:id="@+id/japan_currency"
+        android:title="Yen - Japan"></item>
+    <item
+        android:id="@+id/malaysia_currency"
+        android:title="Ringgit - Malaysia"></item>
+    <item
+        android:id="@+id/maxico_currency"
+        android:title="Peso - Maxico"></item>
+    <item
+        android:id="@+id/new_zealand_currency"
+        android:title="Doller - New Zealand"></item>
+    <item
+        android:id="@+id/norway_currency"
+        android:title="Krone - Norway"></item>
+    <item
+        android:id="@+id/singapore_currency"
+        android:title="Doller - Singapore"></item>
+    <item
+        android:id="@+id/south_africa_currency"
+        android:title="Rend - South Africa"></item>
+    <item
+        android:id="@+id/south_korea_currency"
+        android:title="Won - South Korea"></item>
+    <item
+        android:id="@+id/shri_lanka_currency"
+        android:title="Rupee - Shri Lanka"></item>
+    <item
+        android:id="@+id/sweden_currency"
+        android:title="Krona - Sweden"></item>
+    <item
+        android:id="@+id/switzerland_currency"
+        android:title="Franc - Switzerland"></item>
+    <item
+        android:id="@+id/taiwan_currency"
+        android:title="Doller - Taiwan"></item>
+    <item
+        android:id="@+id/thailand_currency"
+        android:title="Baht - Thailand"></item>
+    <item
+        android:id="@+id/united_kingdom_currency"
+        android:title="Pound - United Kingdom"></item>
+    <item
+        android:id="@+id/venezuala_currency"
+        android:title="Bolivar - Venezuala"></item>
+</menu>

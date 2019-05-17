@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="notification_type">
+        <item>@string/no_notify</item>
+        <item>@string/on_same_day</item>
+        <item>@string/one_day_before_due_date</item>
+        <item>@string/two_day_before_due_date</item>
+        <item>@string/three_day_before_due_date</item>
+        <item>@string/four_day_before_due_date</item>
+        <item>@string/five_day_before_due_date</item>
+        <item>@string/six_day_before_due_date</item>
+        <item>@string/seven_day_before_due_date</item>
+        <item>@string/eight_day_before_due_date</item>
+        <item>@string/nine_day_before_due_date</item>
+        <item>@string/ten_day_before_due_date</item>
+    </string-array>
+
+    <integer-array name="landline_provider_icon">
+        <item>@drawable/landline_airtel</item>
+        <item>@drawable/landline_bsnl</item>
+        <item>@drawable/landline_docomo</item>
+        <item>@drawable/landline_docomo</item>
+        <item>@drawable/landline_mtnl</item>
+        <item>@drawable/landline_mtnl</item>
+        <item>@drawable/landline_reliance</item>
+    </integer-array>
+
+    <string-array name="landline_provider_name">
+        <item>@string/landline_airtel</item>
+        <item>@string/landline_bsnl</item>
+        <item>@string/landline_tata_gsm</item>
+        <item>@string/landline_tata_cdma</item>
+        <item>@string/landline_mtnl_delhi</item>
+        <item>@string/landline_mtnl_mumbai</item>
+        <item>@string/landline_reliance</item>
+    </string-array>
+
+    <integer-array name="category_icon_list">
+        <item>@drawable/electricity</item>
+        <item>@drawable/insurance</item>
+        <item>@drawable/landline</item>
+        <item>@drawable/gas</item>
+        <item>@drawable/water</item>
+        <item>@drawable/ic_add_circle_black_24dp</item>
+        <!--<item>@drawable/ic_icon_alarm</item>
+
+        <item>@drawable/ic_icon_alarm</item>
+        <item>@drawable/ic_icon_alarm</item>
+        <item>@drawable/ic_icon_alarm</item>
+        <item>@drawable/ic_icon_alarm</item>
+        <item>@drawable/ic_icon_alarm</item>
+        <item>@drawable/ic_icon_alarm</item>
+        <item>@drawable/ic_icon_alarm</item>
+        <item>@drawable/ic_icon_alarm</item>
+        <item>@drawable/ic_icon_alarm</item>
+        <item>@drawable/ic_icon_alarm</item>
+        <item>@drawable/ic_icon_alarm</item>
+        <item>@drawable/ic_icon_alarm</item>
+        <item>@drawable/ic_icon_alarm</item>
+        <item>@drawable/ic_icon_alarm</item>
+        <item>@drawable/ic_icon_alarm</item>
+        <item>@drawable/ic_icon_alarm</item>-->
+    </integer-array>
+
+    <string-array name="gas_provider_name">
+        <item>@string/adani_gas</item>
+        <item>@string/aavantika_gas</item>
+        <item>@string/central_up_gas</item>
+        <item>@string/charotar_gas</item>
+        <item>@string/gail_gas</item>
+        <item>@string/gujarat_gas</item>
+        <item>@string/haryana_city_gas</item>
+        <item>@string/indian_oil</item>
+        <item>@string/indraprasth_gas</item>
+        <item>@string/mahanagar_gas</item>
+        <item>@string/maharastra_gas</item>
+        <item>@string/sabarmati_gas</item>
+        <item>@string/siti_energy</item>
+        <item>@string/tripura_natural_gas</item>
+        <item>@string/unique_central_gas</item>
+        <item>@string/vadodara_gas</item>
+    </string-array>
+
+    <integer-array name="gas_provider_icon">
+        <item>@drawable/gas_adani</item>
+        <item>@drawable/gas_aavantika</item>
+        <item>@drawable/gas_centralup</item>
+        <item>@drawable/gas_charotargas</item>
+        <item>@drawable/gas_gail</item>
+        <item>@drawable/gas_gujaratgas</item>
+        <item>@drawable/gas_haryanacity</item>
+        <item>@drawable/gas_indianoil</item>
+        <item>@drawable/gas_indraprasthgas</item>
+        <item>@drawable/gas_mahanagargas</item>
+        <item>@drawable/gas_maharastragas</item>
+        <item>@drawable/gas_sabarmati</item>
+        <item>@drawable/gas_sitienergy</item>
+        <item>@drawable/gas_tripura</item>
+        <item>@drawable/gas_unique</item>
+        <item>@drawable/gas_vadodara</item>
+    </integer-array>
+
+    <integer-array name="provider_icon_list">
+        <item>@drawable/electricity_apspdcl</item>
+        <item>@drawable/electricity_ajmer</item>
+        <item>@drawable/electricity_assam</item>
+        <item>@drawable/electricity_best</item>
+        <item>@drawable/electricity_bescom</item>
+        <item>@drawable/electricity_besl</item>
+        <item>@drawable/electricity_bses</item>
+        <item>@drawable/electricity_bhagalpur</item>
+        <item>@drawable/electricity_reliance</item>
+        <item>@drawable/electricity_mp_bhopal</item>
+        <item>@drawable/electricity_mp_indore</item>
+        <item>@drawable/electricity_mp_jabalpur</item>
+
+        <!-- new added........-->
+        <item>@drawable/electricity_adani</item>
+        <item>@drawable/electricity_assam_rural</item>
+        <item>@drawable/electricity_kolkata</item>
+        <item>@drawable/electricity_chamundeshwari</item>
+        <item>@drawable/electricity_daman_dui</item>
+        <item>@drawable/electricity_dnh_power</item>
+        <item>@drawable/electricity_dakshin_gujarat</item>
+        <item>@drawable/electricity_dakshin_haryana</item>
+        <item>@drawable/electricity_durgapur</item>
+        <item>@drawable/electricity_epdcl</item>
+        <item>@drawable/electricity_goa</item>
+        <item>@drawable/electricity_gulbarga</item>
+        <item>@drawable/electricity_himachal_pradesh</item>
+        <item>@drawable/electricity_hubli</item>
+        <item>@drawable/electricity_india_power</item>
+        <item>@drawable/electricity_jusco_jamshedpur</item>
+        <item>@drawable/electricity_jaipur</item>
+        <item>@drawable/electricity_jharkhand</item>
+        <item>@drawable/electricity_kanpur</item>
+        <item>@drawable/electricity_mp_rural</item>
+        <item>@drawable/electricity_mahavitaran</item>
+        <item>@drawable/electricity_mgvcl_gujarat</item>
+        <item>@drawable/electricity_jabalpur_rural</item>
+        <item>@drawable/electricity_mangalore</item>
+        <item>@drawable/electricity_meghalaya</item>
+        <item>@drawable/electricity_nesco_odisha</item>
+        <item>@drawable/electricity_npcl_noida</item>
+        <item>@drawable/electricity_new_delhi</item>
+        <item>@drawable/electricity_north_bihar</item>
+        <item>@drawable/electricity_paschim_gujarat</item>
+        <item>@drawable/electricity_punjab_state</item>
+        <item>@drawable/electricity_nagpur</item>
+        <item>@drawable/electricity_southco_odisha</item>
+        <item>@drawable/electricity_sikkim_power</item>
+        <item>@drawable/electricity_south_bihar</item>
+        <item>@drawable/electricity_tp_ajmer</item>
+        <item>@drawable/electricity_tsecl_tripura</item>
+        <item>@drawable/electricity_tata_power</item>
+        <item>@drawable/electricity_tata_ddl</item>
+        <item>@drawable/electricity_torrent_power</item>
+        <item>@drawable/electricity_uttarakhand</item>
+        <item>@drawable/electricity_uttar_gujarat</item>
+        <item>@drawable/electricity_uttar_haryana</item>
+        <item>@drawable/electricity_uttar_pradesh_rural</item>
+        <item>@drawable/electricity_uttar_pradesh_urban</item>
+        <item>@drawable/electricity_wesco_odisha</item>
+        <item>@drawable/electricity_west_bengal</item>
+
+        // provider validation not applicable......
+        <!-- <item>@drawable/electricity_bikaner</item>
+         <item>@drawable/electricity_chhattisgarh</item>
+         <item>@drawable/electricity_nagaland</item>
+         <item>@drawable/electricity_jodhpur</item>
+         <item>@drawable/electricity_kota</item>
+         <item>@drawable/electricity_tamilnadu</item>-->
+
+
+    </integer-array>
+
+    <string-array name="list_repeat_type">
+        <item>@string/forever</item>
+        <item>@string/end_date</item>
+        <item>@string/number_of_time</item>
+    </string-array>
+
+    <string-array name="bank_names_list">
+        <item>@string/bank_axis</item>
+        <item>@string/bank_hdfc</item>
+        <item>@string/bank_icici</item>
+        <item>@string/bank_kotak_mahindra</item>
+        <item>@string/bank_sbi</item>
+    </string-array>
+
+    <integer-array name="bank_icon_list">
+        <item>@drawable/axis</item>
+        <item>@drawable/hdfc</item>
+        <item>@drawable/icici</item>
+        <item>@drawable/kotak</item>
+        <item>@drawable/sbi</item>
+    </integer-array>
+
+    <string-array name="bank_link_list">
+        <item>https://www.onlinesbi.com</item>
+        <item>https://www.onlinesbi.com</item>
+        <item>https://www.onlinesbi.com</item>
+        <item>https://www.onlinesbi.com</item>
+        <item>https://www.onlinesbi.com</item>
+    </string-array>
+
+    <integer-array name="spinner_icon">
+        // term insurance
+        <item>@drawable/home</item>
+        <item>@drawable/ic_office1</item>
+        <item>@drawable/other</item>
+    </integer-array>
+
+    <string-array name="provider_list">
+        <item>@string/electricity_apspdcl</item>
+        <item>@string/electricity_ajmer</item>
+        <item>@string/electricity_assam</item>
+        <item>@string/electricity_best</item>
+        <item>@string/electricity_bescom</item>
+        <item>@string/electricity_besl</item>
+        <item>@string/electricity_bses</item>
+        <item>@string/electricity_bhagalpur</item>
+        <item>@string/electricity_reliance</item>
+        <item>@string/electricity_mp_bhopal</item>
+        <item>@string/electricity_mp_indore</item>
+        <item>@string/electricity_mp_jabalpur</item>
+
+
+        //new added
+        <item>@string/electricity_adani</item>
+        <item>@string/electricity_assam_rural</item>
+        <item>@string/electricity_cesc_kolkata</item>
+        <item>@string/electricity_chamundeshwari</item>
+        <item>@string/electricity_dded</item>
+        <item>@string/electricity_dnh_power</item>
+        <item>@string/electricity_dakshin_gujarat</item>
+        <item>@string/electricity_dakshin_haryana</item>
+        <item>@string/electricity_durgapur</item>
+        <item>@string/electricity_epdcl_andhrapradesh</item>
+        <item>@string/electricity_goa</item>
+        <item>@string/electricity_gulbarga</item>
+        <item>@string/electricity_himachal</item>
+        <item>@string/electricity_hubli</item>
+        <item>@string/electricity_india_power</item>
+        <item>@string/electricity_jusco_jamshedpur</item>
+        <item>@string/electricity_jaipur</item>
+        <item>@string/electricity_jharkhand</item>
+        <item>@string/electricity_kesco_kanpur</item>
+        <item>@string/electricity_mp_rural</item>
+        <item>@string/electricity_msedc_mahavitaran</item>
+        <item>@string/electricity_mgvcl_madhya_gujarat</item>
+        <item>@string/electricity_jabalpur_rural</item>
+        <item>@string/electricity_mangalore</item>
+        <item>@string/electricity_mepdcl_meghalaya</item>
+        <item>@string/electricity_nesco_odisa</item>
+        <item>@string/electricity_npcl_noida</item>
+        <item>@string/electricity_new_delhi</item>
+        <item>@string/electricity_north_bihar</item>
+        <item>@string/electricity_pgvcl_pashchim_gujarat</item>
+        <item>@string/electricity_punjab_state</item>
+        <item>@string/electricity_sndl_nagpur</item>
+        <item>@string/electricity_southco_odisa</item>
+        <item>@string/electricity_sikkim</item>
+        <item>@string/electricity_south_bihar</item>
+        <item>@string/electricity_tp_ajmer</item>
+        <item>@string/electricity_tsecl_tripura</item>
+        <item>@string/electricity_tata_power</item>
+        <item>@string/electricity_tata_ddl</item>
+        <item>@string/electricity_torrent_power</item>
+        <item>@string/electricity_uttarakhand</item>
+        <item>@string/electricity_ugvcl_uttar_gujarat</item>
+        <item>@string/electricity_uttar_haryana</item>
+        <item>@string/electricity_uttar_pradesh_rural</item>
+        <item>@string/electricity_uttar_pradesh_urban</item>
+        <item>@string/electricity_wesco_odisha</item>
+        <item>@string/electricity_west_bengal</item>
+        // provider validation not applicable
+        <!--<item>@string/electricity_bikaner</item>
+        <item>@string/electricity_cspdcl</item>
+        <item>@string/electricity_nagaland</item>
+        <item>@string/electricity_jodhpur</item>
+        <item>@string/electricity_kedl_kota</item>
+        <item>@string/electricity_tamilnadu</item>-->
+
+    </string-array>
+
+    <integer-array name="life_insurance_icon">
+        <item>@drawable/ins_bharti</item>
+        <item>@drawable/ins_canara</item>
+        <item>@drawable/ins_dhfl</item>
+        <item>@drawable/ins_icici</item>
+        <item>@drawable/ins_idbi</item>
+        <item>@drawable/ins_indiafirst</item>
+        <item>@drawable/ins_max</item>
+        <item>@drawable/ins_sbi</item>
+        <item>@drawable/ins_tata</item>
+
+
+        <!--Not found Validations-->
+        <!--<item>@drawable/ins_bajaj</item>
+        <item>@drawable/ins_pnb</item>
+        <item>@drawable/ins_edelweiss</item>
+        <item>@drawable/ins_reliance</item>-->
+
+    </integer-array>
+
+    <string-array name="life_insurance_name">
+        <item>@string/life_ins_bharti</item>
+        <item>@string/life_ins_canara</item>
+        <item>@string/life_ins_dhfl</item>
+        <item>@string/life_ins_icici</item>
+        <item>@string/life_ins_idbi</item>
+        <item>@string/life_ins_indiafirst</item>
+        <item>@string/life_ins_max</item>
+        <item>@string/life_ins_sbi</item>
+        <item>@string/life_ins_tata</item>
+
+        <!--Not found Validations-->
+
+        <!--
+        <item>Reliance Life Insurance</item>
+        <item>PNB MetLife Life Insurance</item>
+        <item>BAJAJ Allianz General Insurance Co. Ltd</item>
+        <item>Edelweiss Tokio Life Insurance</item>-->
+
+    </string-array>
+
+
+    <!--<string-array name="bill_types_list">
+        <item>Home</item>
+        <item>Office</item>
+    </string-array>-->
+
+    <integer-array name="car_insurance_icon">
+        // car insurance
+        <item>@drawable/car_bajaj</item>
+        <item>@drawable/car_bharti</item>
+        <item>@drawable/car_cholamandalam</item>
+        <item>@drawable/car_future</item>
+        <item>@drawable/car_hdfc</item>
+        <item>@drawable/car_iffco</item>
+        <item>@drawable/car_liberty</item>
+        <item>@drawable/car_national</item>
+        <item>@drawable/car_new_india</item>
+        <item>@drawable/car_oriental</item>
+        <item>@drawable/car_raheja</item>
+        <item>@drawable/car_reliance</item>
+        <item>@drawable/car_royal</item>
+        <item>@drawable/car_sbi</item>
+        <item>@drawable/car_shri_ram</item>
+        <item>@drawable/car_tata</item>
+        <item>@drawable/car_united</item>
+        <item>@drawable/car_universal</item>
+    </integer-array>
+
+    <string-array name="car_insurance_name">
+        //car insurance
+        <item>@string/car_ins_bajaj</item>
+        <item>@string/car_ins_bharti</item>
+        <item>@string/car_ins_cholamandlam</item>
+        <item>@string/car_ins_future</item>
+        <item>@string/car_ins_hdfc</item>
+        <item>@string/car_ins_iffco</item>
+        <item>@string/car_ins_liberty</item>
+        <item>@string/car_ins_national</item>
+        <item>@string/car_ins_newindia</item>
+        <item>@string/car_ins_oriental</item>
+        <item>@string/car_ins_raheja</item>
+        <item>@string/car_ins_reliance</item>
+        <item>@string/car_ins_royal</item>
+        <item>@string/car_ins_sbi</item>
+        <item>@string/car_ins_shreeram</item>
+        <item>@string/car_ins_tata</item>
+        <item>@string/car_ins_united</item>
+        <item>@string/car_ins_universal</item>
+
+    </string-array>
+
+
+    <integer-array name="bike_insurance_icon">
+        // bike insurance
+        <item>@drawable/bike_bajaj</item>
+        <item>@drawable/bike_bharti</item>
+        <item>@drawable/bike_hdfc</item>
+        <item>@drawable/bike_iffco</item>
+        <item>@drawable/bike_reliance</item>
+        <item>@drawable/bike_universal</item>
+        <item>@drawable/bike_royal</item>
+        <item>@drawable/bike_new_india</item>
+        <item>@drawable/bike_liberty</item>
+        <item>@drawable/bike_national</item>
+        <item>@drawable/bike_oriental</item>
+        <item>@drawable/bike_sbi</item>
+        <item>@drawable/bike_shri_ram</item>
+        <item>@drawable/bike_tata</item>
+        <item>@drawable/bike_united</item>
+    </integer-array>
+    <string-array name="bike_insurance_name">
+        // bike insurance
+        <item>@string/bike_ins_bajaj</item>
+        <item>@string/bike_ins_bharti</item>
+        <item>@string/bike_ins_hdfc</item>
+        <item>@string/bike_ins_iffco</item>
+        <item>@string/bike_ins_reliance</item>
+        <item>@string/bike_ins_universal</item>
+        <item>@string/bike_ins_royal</item>
+        <item>@string/bike_ins_newindia</item>
+        <item>@string/bike_ins_liberty</item>
+        <item>@string/bike_ins_national</item>
+        <item>@string/bike_ins_oriental</item>
+        <item>@string/bike_ins_sbi</item>
+        <item>@string/bike_ins_shriram</item>
+        <item>@string/bike_ins_tata</item>
+        <item>@string/bike_ins_united</item>
+    </string-array>
+
+    <integer-array name="health_insurance_icon">
+        // health insurance
+        <item>@drawable/health_bajaj</item>
+        <item>@drawable/health_bharti</item>
+        <item>@drawable/health_cholamandalam</item>
+        <item>@drawable/health_cigna</item>
+        <item>@drawable/health_future</item>
+        <item>@drawable/health_hdfc</item>
+        <item>@drawable/health_iffco</item>
+        <item>@drawable/health_liberty</item>
+        <item>@drawable/health_lic</item>
+        <item>@drawable/health_max</item>
+        <item>@drawable/health_national</item>
+        <item>@drawable/health_new_india</item>
+        <item>@drawable/health_oriental</item>
+        <item>@drawable/health_raheja</item>
+        <item>@drawable/health_reliance</item>
+        <item>@drawable/health_religare</item>
+        <item>@drawable/health_royal</item>
+        <item>@drawable/health_sbi</item>
+        <item>@drawable/health_star</item>
+        <item>@drawable/health_tata</item>
+        <item>@drawable/health_united</item>
+        <item>@drawable/health_universal</item>
+    </integer-array>
+
+    <string-array name="health_insurance_name">
+        //health insurance
+        <item>@string/health_ins_bajaj</item>
+        <item>@string/health_ins_bharti</item>
+        <item>@string/health_ins_cholamandalam</item>
+        <item>@string/health_ins_cigna</item>
+        <item>@string/health_ins_future</item>
+        <item>@string/health_ins_hdfc</item>
+        <item>@string/health_ins_iffco</item>
+        <item>@string/health_ins_liberty</item>
+        <item>@string/health_ins_lic</item>
+        <item>@string/health_ins_max</item>
+        <item>@string/health_ins_national</item>
+        <item>@string/health_ins_newindia</item>
+        <item>@string/health_ins_oriental</item>
+        <item>@string/health_ins_raheja</item>
+        <item>@string/health_ins_reliance</item>
+        <item>@string/health_ins_religare</item>
+        <item>@string/health_ins_royal</item>
+        <item>@string/health_ins_sbi</item>
+        <item>@string/health_ins_star</item>
+        <item>@string/health_ins_tata</item>
+        <item>@string/health_ins_united</item>
+        <item>@string/health_ins_universal</item>
+    </string-array>
+    <integer-array name="term_insurance_icon">
+        // term insurance
+        <item>@drawable/term_aegon</item>
+        <item>@drawable/term_aviva</item>
+        <item>@drawable/term_bajaj</item>
+        <item>@drawable/term_bharti</item>
+        <item>@drawable/term_birla</item>
+        <item>@drawable/term_canara</item>
+        <item>@drawable/term_dhfl</item>
+        <item>@drawable/term_hdfc</item>
+        <item>@drawable/term_icici</item>
+        <item>@drawable/term_idbi</item>
+        <item>@drawable/term_india_first</item>
+        <item>@drawable/term_kotak</item>
+        <item>@drawable/term_lic</item>
+        <item>@drawable/term_max</item>
+        <item>@drawable/term_pnb</item>
+        <item>@drawable/term_sahara</item>
+        <item>@drawable/term_sbi</item>
+        <item>@drawable/term_shri_ram</item>
+        <item>@drawable/term_tata</item>
+    </integer-array>
+
+    <string-array name="term_insurance_name">
+        //term insurance
+        <item>@string/term_ins_aegon</item>
+        <item>@string/term_ins_aviva</item>
+        <item>@string/term_ins_bajaj</item>
+        <item>@string/term_ins_bharti</item>
+        <item>@string/term_ins_birla</item>
+        <item>@string/term_ins_canara</item>
+        <item>@string/term_ins_dhfl</item>
+        <item>@string/term_ins_hdfc</item>
+        <item>@string/term_ins_icici</item>
+        <item>@string/term_ins_idbi</item>
+        <item>@string/term_ins_indiafirst</item>
+        <item>@string/term_ins_kotak</item>
+        <item>@string/term_ins_lic</item>
+        <item>@string/term_ins_max</item>
+        <item>@string/term_ins_pnb</item>
+        <item>@string/term_ins_sahara</item>
+        <item>@string/term_ins_sbi</item>
+        <item>@string/term_ins_shriram</item>
+        <item>@string/term_ins_tata</item>
+    </string-array>
+
+    <string-array name="main_provider_list">
+        <item>@string/life_insurance</item>
+        <item>@string/health_insurance</item>
+        <item>@string/car_insurance</item>
+        <item>@string/bike_insurance</item>
+        <item>@string/term_insurance</item>
+    </string-array>
+
+    <string-array name="spinner_fragments">
+        <item>@string/home</item>
+        <item>@string/office</item>
+        <item>@string/other</item>
+    </string-array>
+
+    <string-array name="category_list">
+        <item>@string/electricity_bill</item>
+        <item>@string/insurance</item>
+        <item>@string/landline</item>
+        <item>@string/gas</item>
+        <item>@string/water</item>
+        <item>@string/custom</item>
+        <!--<item>other</item>
+        <item>Credit Card Bill</item>
+        <item>Car EMI</item>
+        <item>Two Wheeler EMI</item>
+        <item>Gas</item>
+        <item>Tax</item>
+        <item>Madicare</item>
+        <item>Rent Bill</item>
+        <item>Mobile</item>
+        <item>Broad Band</item>
+        <item>House Loan</item>
+        <item>Water Bill</item>
+        <item>TV/Cable</item>
+        <item>Cellular</item>
+        <item>Newspaper</item>
+        <item>Magazine</item>
+        <item>Mortgage</item>
+        <item>Lease</item>-->
+    </string-array>
+
+    <integer-array name="payment_icon">
+        <item>@drawable/ic_icon_alarm</item>
+        <item>@drawable/ic_icon_alarm</item>
+        <item>@drawable/ic_icon_alarm</item>
+        <item>@drawable/ic_icon_alarm</item>
+    </integer-array>
+
+    <string-array name="payment_option">
+        <item>@string/credit_card</item>
+        <item>@string/debit_card</item>
+        <item>@string/net_banking</item>
+        <item>@string/cash</item>
+    </string-array>
+
+    <string-array name="multi_language">
+        <item>English</item>
+        <item>हिंदी</item>
+    </string-array>
+
+    <string-array name="switch_button_text">
+        <item>@string/enable</item>
+        <item>@string/disable</item>
+    </string-array>
+    <string-array name="currency_dialog">
+        <item>Doller - Australia</item>
+        <item>Real - Brazil</item>
+        <item>Doller - Canada</item>
+        <item>Yuan - China</item>
+        <item>Krone - Denmark</item>
+        <item>Euro - EMU Member Countries</item>
+        <item>Drachma - Greece</item>
+        <item>Doller - Hong kong</item>
+        <item>Rupee - India</item>
+        <item>Yen - Japan</item>
+        <item>Ringgit - Malaysia</item>
+        <item>Peso - Maxico</item>
+        <item>Doller - New Zealand</item>
+        <item>Krone - Norway</item>
+        <item>Doller - Singapore</item>
+        <item>Rupee - Shri Lanka</item>
+        <item>Krona - Sweden</item>
+        <item>Franc - Switzerland</item>
+        <item>Doller - Taiwan</item>
+        <item>Baht - Thailand</item>
+        <item>Pound - United Kingdom</item>
+        <item>Bolivar - Venezuala</item>
+    </string-array>
+
+    <string-array name="repeat_type">
+        <item>@string/forever</item>
+        <item>@string/end_date</item>
+        <!--  <item>@string/number_of_time</item>-->
+    </string-array>
+
+    <string-array name="water_provider_name">
+        <item>@string/bangalore_water</item>
+        <item>@string/bhopal_municipal_water</item>
+        <item>@string/delhi_jal_board</item>
+        <item>@string/greater_warangle_water</item>
+        <item>@string/gwalior_municipal_water</item>
+        <item>@string/haryana_urban_water</item>
+        <item>@string/hyderabad_metropolitan_water</item>
+        <item>@string/indore_municipal_water</item>
+        <item>@string/jabalpur_municipal_water</item>
+        <item>@string/ludhiana_municipal_water</item>
+        <item>@string/municipal_corporation_jalandhar</item>
+        <item>@string/municipal_corporation_gurugram</item>
+        <item>@string/new_delhi_municipal</item>
+        <item>@string/phed_rajasthan</item>
+        <item>@string/pune_municipal_corporation</item>
+        <item>@string/uit_bhiwadi</item>
+        <item>@string/ujjain_nagar_nigam</item>
+        <item>@string/uttarakhand_jal_sansthan</item>
+    </string-array>
+
+    <integer-array name="water_provider_icon">
+        <item>@drawable/water_bangalore</item>
+        <item>@drawable/water_bhopal</item>
+        <item>@drawable/water_delhi</item>
+        <item>@drawable/water_greater_warangal</item>
+        <item>@drawable/water_gwalior</item>
+        <item>@drawable/water_haryana</item>
+        <item>@drawable/water_hyderabad</item>
+        <item>@drawable/water_indore</item>
+        <item>@drawable/water_jabalpur</item>
+        <item>@drawable/water_ludhiyana</item>
+        <item>@drawable/water_jalandhar</item>
+        <item>@drawable/water_gurugram</item>
+        <item>@drawable/water_new_delhi</item>
+        <item>@drawable/water_rajasthan</item>
+        <item>@drawable/water_pune</item>
+        <item>@drawable/water_uit_bhiwadi</item>
+        <item>@drawable/water_ujjain</item>
+        <item>@drawable/water_uttarakhand</item>
+    </integer-array>
+
+</resources>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    tools:context=".Activity.ActivitySelectPaymentMode">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/toolbarcolor"
+        android:minHeight="?attr/actionBarSize"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="@string/title_add_select_payment_mode" />
+
+    <TextView
+        android:id="@+id/tv_payment_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_margin="16dp"
+        android:text="@string/heading_select_payment_option"
+        android:textColor="?attr/textcolor"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_payment_mode"
+        android:background="?attr/backgroundcolor"
+        android:padding="8dp">
+
+        <RelativeLayout
+            android:id="@+id/layout_creditCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card_layout_details"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/iv_creditcard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="8dp"
+                android:tint="@color/colorAccent"
+                app:srcCompat="@drawable/ic_card_24dp" />
+
+            <TextView
+                android:id="@+id/tv_creditcard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/iv_creditcard"
+                android:text="@string/credit_card"
+                android:textColor="?attr/textcolor"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_debitCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_creditCard"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_card_layout_details"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/iv_debitCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="8dp"
+                android:tint="@color/colorAccent"
+                app:srcCompat="@drawable/ic_card_24dp" />
+
+            <TextView
+                android:id="@+id/tv_debitCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/iv_debitCard"
+                android:text="@string/debit_card"
+                android:textColor="?attr/textcolor"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_netBanking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_debitCard"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_card_layout_details"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/iv_netBanking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="8dp"
+                android:tint="@color/colorAccent"
+                app:srcCompat="@drawable/ic_net_banking_24dp" />
+
+            <TextView
+                android:id="@+id/tv_netBanking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/iv_netBanking"
+                android:text="@string/net_banking"
+                android:textColor="?attr/textcolor"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_cash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_netBanking"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_card_layout_details"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/iv_cash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="8dp"
+                android:tint="@color/colorAccent"
+                app:srcCompat="@drawable/ic_cash_24dp" />
+
+            <TextView
+                android:id="@+id/tv_cash"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/iv_cash"
+                android:text="@string/cash"
+                android:textColor="?attr/textcolor"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    android:orientation="vertical"
+    tools:context=".Activity.AddReminderTypeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/toolbarcolor"
+        android:minHeight="?attr/actionBarSize"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="@string/title_alarm_type" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/cardbackground"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/repeat"
+            android:textColor="?attr/textcolor"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/switch_repeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:paddingLeft="18dp"
+            android:paddingRight="16dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/cardbackground">
+
+        <LinearLayout
+            android:id="@+id/layout_repeat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:background="?attr/cardbackground"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:cardBackgroundColor="?attr/cardbackground"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="0dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_repeat_reminder">
+
+                    <com.google.android.material.tabs.TabLayout
+                        android:id="@+id/tablayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:clipToPadding="true"
+                        app:tabBackground="@drawable/selector_tab_reminder_type"
+                        app:tabGravity="fill"
+                        app:tabIndicatorColor="@null"
+                        app:tabMode="fixed"
+                        app:tabPaddingBottom="0dp"
+                        app:tabPaddingEnd="0dp"
+                        app:tabPaddingStart="0dp"
+                        app:tabPaddingTop="0dp"
+                        app:tabSelectedTextColor="@color/colorWhite"
+                        app:tabTextAppearance="@style/TabLayoutTextAppearance">
+
+                        <com.google.android.material.tabs.TabItem
+                            android:id="@+id/tab_daily"
+                            style="@style/tabItem"
+                            android:text="@string/tab_daily" />
+
+                        <com.google.android.material.tabs.TabItem
+                            android:id="@+id/tab_weekly"
+                            style="@style/tabItem"
+                            android:text="@string/tab_weekly" />
+
+                        <com.google.android.material.tabs.TabItem
+                            android:id="@+id/tab_monthly"
+                            style="@style/tabItem"
+                            android:text="@string/tab_monthly" />
+
+                        <com.google.android.material.tabs.TabItem
+                            android:id="@+id/tab_yearly"
+                            style="@style/tabItem"
+                            android:text="@string/tab_yearly" />
+                    </com.google.android.material.tabs.TabLayout>
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="?attr/cardbackground">
+
+                <TextView
+                    android:id="@+id/tv_repeat_interval"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/repeat_daily"
+                    android:textColor="?attr/textcolor"
+                    android:textSize="16sp" />
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    app:cardBackgroundColor="?attr/cardbackground"
+                    app:cardCornerRadius="5dp"
+                    app:cardElevation="0dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_repeat_reminder"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_interval_increase"
+                            style="@style/ButtonBorderless"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="5dp"
+                            android:paddingRight="15dp"
+                            android:paddingBottom="5dp"
+                            android:text="+"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20dp" />
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="fill_parent"
+                            android:background="@color/colorPrimary" />
+
+                        <Button
+                            android:id="@+id/btn_interval_decrease"
+                            style="@style/ButtonBorderless"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="5dp"
+                            android:paddingRight="15dp"
+                            android:paddingBottom="5dp"
+                            android:text="-"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20dp" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="?attr/cardbackground">
+
+                <Spinner
+                    android:id="@+id/spin_list"
+                    style="@style/Widget.AppCompat.Spinner.Underlined"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="@color/colorAccent"
+                    android:dropDownVerticalOffset="17dp"
+                    android:spinnerMode="dropdown" />
+
+                <TextView
+                    android:id="@+id/tv_end_date"
+                    style="@style/ButtonBorderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:hint="YYYY-MM-DD"
+                    android:text=""
+                    android:textColor="?attr/textcolor"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/layout_repeat_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="?attr/cardbackground"
+                    android:gravity="center_vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tv_repeat_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:text="@string/one_times"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="16sp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        app:cardBackgroundColor="?attr/cardbackground"
+                        app:cardCornerRadius="5dp"
+                        app:cardElevation="0dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/bg_repeat_reminder"
+                            android:orientation="horizontal">
+
+                            <Button
+                                android:id="@+id/btn_count_increase"
+                                style="@style/ButtonBorderless"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingLeft="15dp"
+                                android:paddingTop="5dp"
+                                android:paddingRight="15dp"
+                                android:paddingBottom="5dp"
+                                android:text="+"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="20dp" />
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="fill_parent"
+                                android:background="@color/colorPrimary" />
+
+                            <Button
+                                android:id="@+id/btn_count_decrease"
+                                style="@style/ButtonBorderless"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingLeft="15dp"
+                                android:paddingTop="5dp"
+                                android:paddingRight="15dp"
+                                android:paddingBottom="5dp"
+                                android:text="-"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="20dp" />
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layout_days"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/cardbackground"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:background="?attr/cardbackground">
+
+                    <ToggleButton
+                        android:id="@+id/toggleSunday"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/selector_day_toggle"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:textColor="@color/selector_day_text"
+                        android:textOff="SU"
+                        android:textOn="SU"
+                        android:textSize="16dp" />
+
+                    <ToggleButton
+                        android:id="@+id/toggleMonday"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/selector_day_toggle"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:textColor="@color/selector_day_text"
+                        android:textOff="MO"
+                        android:textOn="MO"
+                        android:textSize="16dp" />
+
+                    <ToggleButton
+                        android:id="@+id/toggleTuesday"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/selector_day_toggle"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:textColor="@color/selector_day_text"
+                        android:textOff="TU"
+                        android:textOn="TU"
+                        android:textSize="16dp" />
+
+                    <ToggleButton
+                        android:id="@+id/toggleWednesday"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/selector_day_toggle"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:textColor="@color/selector_day_text"
+                        android:textOff="WE"
+                        android:textOn="WE"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <ToggleButton
+                        android:id="@+id/toggleThursday"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/selector_day_toggle"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:textColor="@color/selector_day_text"
+                        android:textOff="TH"
+                        android:textOn="TH"
+                        android:textSize="16dp" />
+
+                    <ToggleButton
+                        android:id="@+id/toggleFriday"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/selector_day_toggle"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:textColor="@color/selector_day_text"
+                        android:textOff="FR"
+                        android:textOn="FR"
+                        android:textSize="16dp" />
+
+                    <ToggleButton
+                        android:id="@+id/toggleSaturday"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/selector_day_toggle"
+                        android:gravity="center"
+                        android:padding="8dp"
+                        android:textColor="@color/selector_day_text"
+                        android:textOff="SA"
+                        android:textOn="SA"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/layoutOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhiteTransparent"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

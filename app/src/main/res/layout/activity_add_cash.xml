@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    android:orientation="vertical"
+    tools:context="com.tekitsolutions.remindme.remindbillpay.com.tekitsolutions.software.Activity.AddNetBankingActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/toolbarcolor"
+            android:minHeight="?attr/actionBarSize"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:title="Add Account" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/backgroundcolor"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_card_layout_details"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/iv_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="8dp"
+                    android:tint="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_card_holder" />
+
+                <EditText
+                    android:id="@+id/et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@id/iv_user_name"
+                    android:background="@android:color/transparent"
+                    android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ अआइईउऊऋएऐओऔकखगघङचछजझञाटठडढणतथदधनपफबभमयरलवशषसहक्षत्रज्ञ ा ि ी ु ू ृ े ै ो ौ ं ः "
+                    android:hint="@string/cash_name"
+                    android:imeOptions="actionNext"
+                    android:maxLength="20"
+                    android:singleLine="true"
+                    android:textColor="?attr/textcolor"
+                    android:textColorHint="@color/colorhint"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <include
+                android:id="@+id/tv_cash_holder_name_error"
+                layout="@layout/row_error_textview2" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_card_layout_details"
+                android:padding="8dp">
+
+                <EditText
+                    android:id="@+id/agent_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@id/agent_name_logo"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/agent_name"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:textColor="?attr/textcolor"
+                    android:textColorHint="@color/colorhint"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/agent_name_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="8dp"
+                    android:tint="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_card_holder" />
+            </RelativeLayout>
+
+            <include
+                android:id="@+id/tv_cash_agent_name_error"
+                layout="@layout/row_error_textview2" />
+
+            <RelativeLayout
+                android:id="@+id/layout_select_bank"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_card_layout_details"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/iv_mobile_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="8dp"
+                    android:tint="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_mobile_number_24dp" />
+
+                <EditText
+                    android:id="@+id/mobile_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@id/iv_mobile_no"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/mobile_no"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:singleLine="true"
+                    android:textAllCaps="true"
+                    android:textColor="?attr/textcolor"
+                    android:textColorHint="@color/colorhint"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <include
+                android:id="@+id/tv_cash_agent_mobile_no_error"
+                layout="@layout/row_error_textview2" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_card_layout_details"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/iv_email_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="8dp"
+                    android:tint="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_mail_black_24dp" />
+
+                <EditText
+                    android:id="@+id/email_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@id/iv_email_id"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/email_id"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:textColor="?attr/textcolor"
+                    android:textColorHint="@color/colorhint"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+            <include
+                android:id="@+id/tv_cash_agent_email_error"
+                layout="@layout/row_error_textview2" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/bg_card_layout_details"
+                android:padding="8dp">
+
+                <EditText
+                    android:id="@+id/alias_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@id/alias_name_logo"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/alias_name"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:textColor="?attr/textcolor"
+                    android:textColorHint="@color/colorhint"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/alias_name_logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginRight="8dp"
+                    android:tint="@color/colorAccent"
+                    app:srcCompat="@drawable/ic_card_holder" />
+            </RelativeLayout>
+
+            <include
+                android:id="@+id/tv_cash_alias_error"
+                layout="@layout/row_error_textview2" />
+
+            <Button
+                android:id="@+id/btn_add_cash"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/colorAccent"
+                android:text="@string/button_add_cash"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

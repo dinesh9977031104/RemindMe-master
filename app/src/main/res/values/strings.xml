@@ -1,0 +1,722 @@
+<resources>
+
+    <!-- <string name="db_reminder_bill_pay">database</string>-->
+    <string name="app_name">Remind Me</string>
+
+    <!--Add Remind Activity-->
+    <string name="title_add_reminder">Add Reminder</string>
+    <string name="heading_title">Title</string>
+    <string name="hint_select_category">Select Category</string>
+    <string name="heading_category">Category</string>
+    <string name="heading_payment">Payment</string>
+    <string name="hint_select_payment_mode">Select Payment Mode</string>
+    <string name="heading_amount">Amount</string>
+    <string name="heading_due_date">Due Date</string>
+    <string name="heading_Notification">Notify in adv.</string>
+    <string name="heading_note">Note</string>
+    <string name="heading_spinner">Reminder Type</string>
+
+
+    <string name="radio_credit_card">Credit Card</string>
+    <string name="radio_debit_card">Debit Card</string>
+    <string name="radio_net_banking">Net Banking</string>
+    <string name="radio_cash">Cash</string>
+    <string name="title_add_select_payment_mode">Add Payment Mode</string>
+
+    <string name="hint_notification_before_due_date">On Same Day </string>
+    <string name="heading_repeat">Repeat</string>
+
+
+    <string name="heading_select_payment_option">Select Payment Option</string>
+    <string name="radio_btn_card_payment">Cards-Debit/Credit</string>
+    <string name="radio_btn_net_banking">Net Banking</string>
+
+
+    <string name="title_select_category">Select Category</string>
+
+    <string name="ok_btn_dialog">OK</string>
+    <string name="cancel_btn_dialog">CANCEL</string>
+    <string name="select_title">Select</string>
+
+    <string name="title_add_card_activity">Add a Card</string>
+    <string name="title_activity_card_list">Your Cards</string>
+    <string name="no_cards_found">No cards found!</string>
+    <string name="title_alarm_type">Alarm Type</string>
+    <string name="heading_alarm_time">Alarm Time</string>
+    <string name="title_reminder_info">Reminder Info</string>
+    <string name="no_internet">No Internet</string>
+    <string name="check_your_internet">Please check your network connection.</string>
+
+
+    <string name="hint_text">Click on the plus button below to create a Reminder.</string>
+    <string name="hint_none">None</string>
+
+    // modified by dinesh
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+
+    <string name="select_provider">Select Provider</string>
+    <string name="consumer_number">Consumer Number</string>
+    <string name="textview_hint">Please enter your Consumer Number</string>
+    <string name="alias_name">Alias Name</string>
+    <string name="name">Owner name</string>
+    <string name="button_confirm">Confirm</string>
+    <string name="spinner_provider">Select Insurance Provider</string>
+    <string name="edittext_sub_provider">Select Insurance Provider</string>
+    <string name="policy_number">Policy Number</string>
+    <string name="textview_policy_number">Please enter your Policy  Number</string>
+    <string name="agent_name">Agent name</string>
+    <string name="agent_number">Agent Mobile number</string>
+    <string name="select_landline_provider">Select Landline Provider</string>
+    <string name="landline_number">Landline Number</string>
+    <string name="textview_landline_number">Please enter your Landline Number</string>
+    <string name="landline_acount_no">Account Number</string>
+    <string name="card_number">Card Number</string>
+    <string name="card_holder_name">Card Holder Name</string>
+    <string name="card_expire">MM/YY</string>
+    <string name="card_cvv">cvv(Optional)</string>
+    <string name="other_info">Other Information</string>
+    <string name="mobile_no">Agent mobile number</string>
+    <string name="button_add_card">ADD CARD</string>
+    <string name="account_number">Account Number</string>
+    <string name="select_bank">Select Bank</string>
+    <string name="account_user_name">Username</string>
+    <string name="ifsc_code">IFSC code (Ex. ABCD0123456)</string>
+    <string name="bank_url">Bank URL</string>
+    <string name="button_add_acount">ADD ACCOUNT</string>
+    <string name="cash_name">Cash holder name</string>
+    <string name="email_id">Agent Email Id</string>
+    <string name="button_add_cash">ADD</string>
+    <string name="common_activity_hint">Click on the plus button below to add an Account.</string>
+    <string name="repeat">Repeat</string>
+    <string name="tab_daily">Daily</string>
+    <string name="tab_weekly">Weekly</string>
+    <string name="tab_monthly">Monthly</string>
+    <string name="tab_yearly">Yearly</string>
+    <string name="repeat_daily">Repeat Every 1 Day</string>
+    <string name="reminder_title">Reminder Title</string>
+    <string name="uncategorized">Uncategorized</string>
+    <string name="payment_type">Payment Type</string>
+    <string name="payment_info">Payment Info</string>
+    <string name="notes">Notes</string>
+    <string name="text_dismis">DISMISS</string>
+    <string name="general_setting">GENERAL SETTING</string>
+    <string name="language">Language</string>
+
+    <!--<string name="english"></string>-->
+    <string name="currency">Currency</string>
+    <string name="doller_united_states_of_america">Rupee - India </string>
+    <string name="theme">Theme</string>
+    <string name="light">Light</string>
+    <string name="security_setting">SECURITY SETTING</string>
+    <string name="passcode">Change Passcode</string>
+    <string name="passcod_disabled">Disabled</string>
+    <string name="notification_setting">NOTIFICATION SETTING</string>
+    <string name="notification">Notification</string>
+    <string name="notification_enabled">Enabled</string>
+    <string name="reminder_time">Reminder Time</string>
+    <string name="reminder_times">08:00</string>
+    <string name="default_notification">Default Notification</string>
+    <string name="two_days_before_due_date">2 days before due date</string>
+    <string name="sound">Sound</string>
+    <string name="sound_disabled">Enabled</string>
+    <string name="vibration">Vibration</string>
+    <string name="vibration_enabled">Enabled</string>
+    <string name="textview_policy_number_hint">Please enter your Policy  Number </string>
+    <string name="date">YYYY-MM-DD</string>
+
+
+    <string name="select_bill">Select Bill</string>
+    <string name="list">List</string>
+    <string name="fav_reminders">Favorites</string>
+    <string name="setting">Setting</string>
+    <string name="add_bill">Add Electricity Bill</string>
+    <string name="add_custom_bill">Add Custom Bill</string>
+    <string name="add_insurance">Add Insurance</string>
+    <string name="select_insurance">Select Insurance</string>
+    <string name="select_landline">Select Landline</string>
+    <string name="enter_landline_details">Add Landline</string>
+    <string name="select_card">Select Card</string>
+    <string name="select_account">Select an Account</string>
+    <string name="add_account">Add Account</string>
+    <string name="your_cash_record">Your Cash Records</string>
+    <string name="change_pwd">Change Password</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="debit_card">Debit Card</string>
+    <string name="net_banking">Net Banking</string>
+    <string name="cash">Cash</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_favorites">Favorites</string>
+    <string name="nav_setting">Settings</string>
+    <string name="nav_bin">Bin</string>
+    <string name="nav_backup">Backup</string>
+    <string name="nav_restore">Restore</string>
+    <string name="nav_support">Support</string>
+    <string name="nav_share">Share</string>
+    <string name="nav_send">Send</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_feedback">Feedback</string>
+    <string name="nav_about">About Us</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_general_setting">General Settings</string>
+    <string name="nav_recycle">Recycle</string>
+    <string name="nav_communicate">Communicate</string>
+    <string name="nav_other">Other</string>
+    <string name="nav_header_name">User</string>
+    <string name="fragment_home">Home</string>
+    <string name="fragment_office">Office</string>
+    <string name="fragment_other">Other</string>
+    <string name="text_bill_hint">Click on the plus button below to add a bill.</string>
+    <string name="text_insurance_hint">Click on the plus button below to add a Insurance.</string>
+    <string name="text_landline_hint">Click on the plus button below to add a Landline.</string>
+
+
+    //array list translate
+
+
+    <string name="home">Home</string>
+    <string name="office">Office</string>
+    <string name="other">Other</string>
+
+    <string name="electricity_bill">Electricity Bill</string>
+    <string name="insurance">Insurance</string>
+    <string name="landline">Land Line</string>
+    <string name="gas">Gas</string>
+    <string name="water">Water Bill</string>
+    <string name="custom">Add Custom Bill</string>
+
+    <string name="select_insurance_provider">Select Insurance Provider</string>
+    <string name="bike_insurance">Bike Insurance</string>
+    <string name="health_insurance">Health Insurance</string>
+    <string name="car_insurance">Car Insurance</string>
+    <string name="life_insurance">Life Insurance</string>
+    <string name="term_insurance">Term Insurance</string>
+
+
+    <string name="no_notify">No Notify</string>
+    <string name="on_same_day">On Same Day</string>
+    <string name="one_day_before_due_date">1 day(s) before due date</string>
+    <string name="two_day_before_due_date">2 day(s) before due date</string>
+    <string name="three_day_before_due_date">3 day(s) before due date</string>
+    <string name="four_day_before_due_date">4 day(s) before due date</string>
+    <string name="five_day_before_due_date">5 day(s) before due date</string>
+    <string name="six_day_before_due_date">6 day(s) before due date</string>
+    <string name="seven_day_before_due_date">7 day(s) before due date</string>
+    <string name="eight_day_before_due_date">8 day(s) before due date</string>
+    <string name="nine_day_before_due_date">9 day(s) before due date</string>
+    <string name="ten_day_before_due_date">10 day(s) before due date</string>
+
+    <string name="forever">Forever</string>
+    <string name="end_date">End Date</string>
+    <string name="number_of_time">Number of times</string>
+
+
+    <string name="landline_airtel">Airtel Landline</string>
+    <string name="landline_bsnl">BSNL Landline</string>
+    <string name="landline_tata_gsm">Tata DoCoMo GSM</string>
+    <string name="landline_tata_cdma">Tata Docomo CDMA</string>
+    <string name="landline_mtnl_delhi">MTNL Delhi</string>
+    <string name="landline_mtnl_mumbai">MTNL Mumbai</string>
+    <string name="landline_reliance">Reliance</string>
+
+    <string name="bank_axis">Axis Bank</string>
+    <string name="bank_hdfc">HDFC Bank</string>
+    <string name="bank_icici">ICICI Bank</string>
+    <string name="bank_kotak_mahindra">Kotak Mahindra Bank</string>
+    <string name="bank_sbi">State Bank of India</string>
+
+    <string name="enable">Enabled</string>
+    <string name="disable">Disabled</string>
+
+    <string name="change_text">English</string>
+
+
+    <string name="elec_bill_added_successfully">Electricity Bill added successfully</string>
+    <string name="elec_bill_update_successfully">Electricity Bill updated successfully</string>
+    <string name="bill_added_successfully">Bill added successfully</string>
+    <string name="bill_update_successfully">Bill updated successfully</string>
+
+    <string name="water_update_successfully">Water updated successfully</string>
+    <string name="water_added_successfully">Water Bill added successfully</string>
+    <string name="ok">Ok</string>
+    <string name="update_gas_bill">Update Gas Bill</string>
+    <string name="update_elec_bill">Update Electricity Bill</string>
+    <string name="update_bill">Update Bill</string>
+    <string name="update_water">Update Water Bill</string>
+    <string name="please_enter_consumer_no">Please enter your Consumer Number</string>
+    <string name="update_insurance">Update Insurance</string>
+    <string name="please_enter_insurance_no">Please enter your insurance number</string>
+    <string name="insurance_added_succesfully">Insurance added Successfully</string>
+    <string name="insurance_update_successfully">Insurance updated successfully</string>
+    <string name="update_landline">Update Landline</string>
+    <string name="please_enter_landline_no">Please enter your Landline number</string>
+    <string name="landline_update_successfully">Landline updated successfully</string>
+    <string name="landline_added_successfully">Landline added successfully</string>
+
+    <string name="view">View</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="provider">Provider</string>
+    <string name="consumer_no">Consumer Number</string>
+    <string name="bill_info">Bill Info</string>
+    <string name="are_you_sure">Are You Sure?</string>
+    <string name="want_to_delete_bill">Want to delete this Bill Information.</string>
+    <string name="yes">YES</string>
+    <string name="bill_info_deleted">Bill Information Deleted</string>
+    <string name="no">NO</string>
+    <string name="insurance_info">Insurance Info</string>
+    <string name="want_to_delete_insurance">Want to delete this Insurance Information.</string>
+    <string name="insurance_info_deleted">Insurance information Deleted</string>
+    <string name="landline_info">Landline Info</string>
+    <string name="want_to_delete_landline">Want to delete this Landline information.</string>
+    <string name="landline_info_deleted">Landline information Deleted</string>
+
+    <string name="want_to_delete_reminder">Want to delete this Reminder.</string>
+    <string name="reminder_deleted">Reminder Deleted</string>
+
+    <string name="update_card">Update Card</string>
+    <string name="card_alredy_exist">Card already exist</string>
+    <string name="card_added_successfully">Card added Successfully</string>
+    <string name="card_update_successfully">Card updated Successfully</string>
+    <string name="update_cash_record">Update Cash record</string>
+    <string name="cash_added_successfully">Cash added Successfully</string>
+    <string name="cash_update_successfully">Cash updated Successfully</string>
+    <string name="update_account">Update Account</string>
+    <string name="account_added_successfully">Account added Successfully</string>
+    <string name="account_update_successfully">Account updated Successfully</string>
+
+    <string name="card_info">Card Info</string>
+    <string name="want_to_delete_card">Want to delete this Card.</string>
+    <string name="card_info_deleted">Card Information Deleted</string>
+    <string name="cash_info">Cash Info</string>
+    <string name="want_to_delete_record">Want to delete this record.</string>
+    <string name="cash_record_deleted">Cash record deleted</string>
+    <string name="account_info">Account Info</string>
+    <string name="want_to_delete_account">Want to delete this Account.</string>
+    <string name="account_info_deleted">Account Information Deleted</string>
+
+    <string name="edit_reminder">Edit Reminder</string>
+    <string name="reminder_added_successfully">Reminder created successfully!</string>
+    <string name="reminder_update_successfully">Reminder updated successfully!</string>
+
+    <string name="card">Card</string>
+    <string name="select_category">Select Category</string>
+    <string name="select_payment_mode">Select Payment Mode</string>
+    <string name="please_select_category">Please select a generalProvider.</string>
+    <string name="you_cant_select_past_time">Can not select Past Time.</string>
+
+
+    <string name="electricity_apspdcl">APSPDCL AP South</string>
+    <string name="electricity_ajmer">Ajmer Vidyut Vitran Nigam Ltd</string>
+    <string name="electricity_assam">Assam Power Distribution Company Ltd (APDCL RAPDR)</string>
+    <string name="electricity_best">BEST Mumbai</string>
+    <string name="electricity_bescom">BESCOM Bangalore</string>
+    <string name="electricity_besl">BESL Bharatpur Electricity Services Ltd</string>
+    <string name="electricity_bses">BSES Yamuna Delhi</string>
+    <string name="electricity_bhagalpur">Bhagalpur Electricity</string>
+    <string name="electricity_reliance">Reliance Energy</string>
+    <string name="electricity_mp_bhopal">MP pashchim Kshetra -Bhopal</string>
+    <string name="electricity_mp_indore">MP Pashchim Kshetra Vidyut Vitaran - Indore</string>
+    <string name="electricity_mp_jabalpur">MP Poorv Kshetra Vidyut Vitaran - Jabalpur</string>
+    <string name="electricity_adani">Adani Electricity Mumbai Limited</string>
+    <string name="electricity_assam_rural">Assam Power Distribution Company Ltd. (Rural)</string>
+    <string name="electricity_bikaner">Bikaner Electricity Supply Limited (BKESL)</string>
+    <string name="electricity_cesc_kolkata">CESC Kolkata</string>
+    <string name="electricity_cspdcl">CSPDCL (Chhattisgarh State Power Distribution Company Limited)</string>
+    <string name="electricity_chamundeshwari">Chamundeshwari Electricity Supply Corp Ltd (CESCOM)</string>
+    <string name="electricity_dded">DDED Daman and Diu</string>
+    <string name="electricity_dnh_power">DNH Power</string>
+    <string name="electricity_dakshin_gujarat">DDGVCL Dakshin Gujarat Vij</string>
+    <string name="electricity_dakshin_haryana">Dakshin Haryana Bijli Vitran Nigam (DHBVN)</string>
+    <string name="electricity_nagaland">Department of Power Nagaland</string>
+    <string name="electricity_durgapur">Durgapur Projects Ltd.</string>
+    <string name="electricity_epdcl_andhrapradesh">EPDCL Eastern Power Distribution Company of Andhra Pradesh Limited</string>
+    <string name="electricity_goa">Goa Electricity Department</string>
+    <string name="electricity_gulbarga">Gulbarga Electricity Supply Company Limited</string>
+    <string name="electricity_himachal">Himachal Pradesh State Electricity Board</string>
+    <string name="electricity_hubli">Hubli Electricity Supply Company Ltd (HESCOM)</string>
+    <string name="electricity_india_power">India Power</string>
+    <string name="electricity_jusco_jamshedpur">JUSCO Jamshedpur</string>
+    <string name="electricity_jaipur">Jaipur Vidhyut Vitaran Nigam Ltd.</string>
+    <string name="electricity_jharkhand">Jharkhand Bijli Vitran Nigam Limited (JBVNL)</string>
+    <string name="electricity_jodhpur">Jodhpur Vidhyut Vitran Nigam Ltd.</string>
+    <string name="electricity_kedl_kota">KEDL Kota Electricity Distribution Ltd.</string>
+    <string name="electricity_kesco_kanpur">KESCO Kanpur Electricity Supply Company Ltd</string>
+    <string name="electricity_mp_rural">MP Madhya Kshetra Vidhyut Vitran - RURAL</string>
+    <string name="electricity_msedc_mahavitaran">MSEDC Mahavitaran</string>
+    <string name="electricity_mgvcl_madhya_gujarat">MGVCL Madhya Gujarat Vij</string>
+    <string name="electricity_jabalpur_rural">MP Poorv Kshetra - Jabalpur (Rural)</string>
+    <string name="electricity_mangalore">Mangalore Electricity Supply Company Ltd</string>
+    <string name="electricity_mepdcl_meghalaya">MEPDCL Meghalaya</string>
+    <string name="electricity_nesco_odisa">NESCO - Odisha</string>
+    <string name="electricity_npcl_noida">NPCL Noida</string>
+    <string name="electricity_new_delhi">New Delhi Municipal Council (NDMC)- Electricity</string>
+    <string name="electricity_north_bihar">North Bihar Power Distribution Company Ltd</string>
+    <string name="electricity_pgvcl_pashchim_gujarat">PGVLC Paschim Gujarat Vij</string>
+    <string name="electricity_punjab_state">Punjab State Power Corporation Ltd (PSPCL)</string>
+    <string name="electricity_sndl_nagpur">SNDL Nagpur</string>
+    <string name="electricity_southco_odisa">SOUTHCO Odisha</string>
+    <string name="electricity_sikkim">Sikkim Power NON-RAPDRP</string>
+    <string name="electricity_south_bihar">South Bihar Power Distribution Company Ltd</string>
+    <string name="electricity_tp_ajmer">TP Ajmer Distribution Ltd</string>
+    <string name="electricity_tsecl_tripura">TSECL Tripura</string>
+    <string name="electricity_tamilnadu">Tamil Nadu Electricity Board (TNEB)</string>
+    <string name="electricity_tata_power">Tata Power - Mumbai</string>
+    <string name="electricity_tata_ddl">TATA POWER - DDL</string>
+    <string name="electricity_torrent_power">Torrent Power</string>
+    <string name="electricity_uttarakhand">Uttarakhand Power Corporation Limited</string>
+    <string name="electricity_ugvcl_uttar_gujarat">UGVCL Uttar Gujarat Vij</string>
+    <string name="electricity_uttar_haryana">Uttar Haryana Bijli Vitran Nigam</string>
+    <string name="electricity_uttar_pradesh_rural">Uttar Pradesh Power Corp Ltd (UPPCL) - RURAL</string>
+    <string name="electricity_uttar_pradesh_urban">Uttar Pradesh Power Corp Ltd (UPPCL) - URBAN</string>
+    <string name="electricity_wesco_odisha">WESCO Odisha</string>
+    <string name="electricity_west_bengal">West Bengal State Electricity</string>
+
+    <string name="life_ins_bharti">Bharti Axa Life Insurance</string>
+    <string name="life_ins_canara">Canara HSBC OBC Life Insurance</string>
+    <string name="life_ins_dhfl">DHFL Pramerica Life Insurance Co. Ltd</string>
+    <string name="life_ins_icici">ICICI Prudential Life Insurance</string>
+    <string name="life_ins_idbi">IDBI Federal Life Insurance</string>
+    <string name="life_ins_indiafirst">IndiaFirst Life Insurance</string>
+    <string name="life_ins_max">Max Life Insurance</string>
+    <string name="life_ins_sbi">SBI Life Insurance</string>
+    <string name="life_ins_tata">TATA Life Insurance</string>
+
+    <string name="car_ins_bajaj">Bajaj Alianz Car Insuance</string>
+    <string name="car_ins_bharti">Bharti AXA Car Insurance</string>
+    <string name="car_ins_cholamandlam">Cholamandalam Car Insurance</string>
+    <string name="car_ins_future">Future Generali Car Insurance Plans</string>
+    <string name="car_ins_hdfc">HDFC Ergo Car Insurance</string>
+    <string name="car_ins_iffco">IFFCO Tokio Car Insurance Plans</string>
+    <string name="car_ins_liberty">Liberty Car Insurance</string>
+    <string name="car_ins_national">National Insurance Car Insurance</string>
+    <string name="car_ins_newindia">New India Assurance Car Insurance</string>
+    <string name="car_ins_oriental">Oriental Car Insurance</string>
+    <string name="car_ins_raheja">Raheja QBE Car Insurance</string>
+    <string name="car_ins_reliance">Reliance General Car Insurance</string>
+    <string name="car_ins_royal">Royal Sundaram Car Insurance</string>
+    <string name="car_ins_sbi">SBI Car Insurance</string>
+    <string name="car_ins_shreeram">ShriRam Car Insurance</string>
+    <string name="car_ins_tata">TATA AIG Car Insurance</string>
+    <string name="car_ins_united">United India Car Insurance</string>
+    <string name="car_ins_universal">Universal Sompo Car Insurance</string>
+
+
+    <string name="bike_ins_bajaj">Bajaj Alianz Two Wheeler Insurance</string>
+    <string name="bike_ins_bharti">Bharti AXA Two Wheeler Insurance</string>
+    <string name="bike_ins_hdfc">HDFC Ergo Two Wheeler Insurance</string>
+    <string name="bike_ins_iffco">IFFCO Tokio Two Wheeler Insurance</string>
+    <string name="bike_ins_reliance">Reliance Two Wheeler Insurance</string>
+    <string name="bike_ins_universal">Universal Sompo Two Wheeler Insurance</string>
+    <string name="bike_ins_royal">Royal Sundaram Two Wheeler Insurance</string>
+    <string name="bike_ins_newindia">New India Assurance Two Wheeler Insurance</string>
+    <string name="bike_ins_liberty">Liberty Two Wheeler Insurance</string>
+    <string name="bike_ins_national">National Insurance Two Wheeler Insurance</string>
+    <string name="bike_ins_oriental">Oriental Insurance Two Wheeler Insurance</string>
+    <string name="bike_ins_sbi">SBI Two Wheeler Insurance</string>
+    <string name="bike_ins_shriram">ShriRam Two Wheeler Insurance</string>
+    <string name="bike_ins_tata">TATA AGI Two Wheeler Insurance</string>
+    <string name="bike_ins_united">United India Two Wheeler Insurance</string>
+
+    <string name="health_ins_bajaj">Bajaj Alianz Health Insurance</string>
+    <string name="health_ins_bharti">Bharti AXA Health Insurance</string>
+    <string name="health_ins_cholamandalam">Cholamandalam Health Insurance</string>
+    <string name="health_ins_cigna">Cigna TTK Health Insurance</string>
+    <string name="health_ins_future">Future Generali Health Insurance</string>
+    <string name="health_ins_hdfc">HDFC Ergo Health Insurance</string>
+    <string name="health_ins_iffco">IFFCO Tokio Health Insurance</string>
+    <string name="health_ins_liberty">Liberty Health Insurance</string>
+    <string name="health_ins_lic">LIC Jivan Arogya Plan(Health Insurance)</string>
+    <string name="health_ins_max">Max Bupa Health Insurance</string>
+    <string name="health_ins_national">National Health Insurance</string>
+    <string name="health_ins_newindia">New India Health Insurance</string>
+    <string name="health_ins_oriental">Oriental Health Insurance</string>
+    <string name="health_ins_raheja">Raheja QBE Health Insurance</string>
+    <string name="health_ins_reliance">Reliance Health Insurance</string>
+    <string name="health_ins_religare">Religare Health Insurance</string>
+    <string name="health_ins_royal">Royal Sundaram Health Insurance</string>
+    <string name="health_ins_sbi">SBI Health Insurance</string>
+    <string name="health_ins_star">Star Health Insurance</string>
+    <string name="health_ins_tata">TATA AIG Health Insurance</string>
+    <string name="health_ins_united">United India Health Insurance</string>
+    <string name="health_ins_universal">Universal Sompo Health Insurance</string>
+
+    <string name="term_ins_aegon">Aegon Life Term Insurance Plans</string>
+    <string name="term_ins_aviva">Aviva Term Insurance Plans</string>
+    <string name="term_ins_bajaj">Bajaj Alianz Term Insurance Plans</string>
+    <string name="term_ins_bharti">Bharti AXA Term Insurance Plans</string>
+    <string name="term_ins_birla">Birla Sun Life Term Insurance Plans</string>
+    <string name="term_ins_canara">Canara HSBC Term Insurance Plans</string>
+    <string name="term_ins_dhfl">DHFL Primerica Term Insurance Plans</string>
+    <string name="term_ins_hdfc">HDFC Life Term Insurance Plans</string>
+    <string name="term_ins_icici">ICICI Prudential Term Insurance Plans</string>
+    <string name="term_ins_idbi">IDBI Federal Term Insurance Plans</string>
+    <string name="term_ins_indiafirst">IndiaFirst Term Insurance Plans</string>
+    <string name="term_ins_kotak">Kotak Life Term Insurance Plans</string>
+    <string name="term_ins_lic">LIC Term Insurance Plans</string>
+    <string name="term_ins_max">Max Life Term Plans</string>
+    <string name="term_ins_pnb">PNB MetLife Term Plans</string>
+    <string name="term_ins_sahara">Sahara Life Term Plans</string>
+    <string name="term_ins_sbi">SBI Life Term Plans</string>
+    <string name="term_ins_shriram">ShriRam Life Term Plans</string>
+    <string name="term_ins_tata">TATA AIA Term Plans</string>
+
+
+    <string name="default_name">Select Insurance Provider</string>
+    <string name="selected">selected</string>
+    <string name="common_desc">Click on the plus button below to add details</string>
+    <string name="fav_desc">Click on the plus button below to add your Favorite Reminders</string>
+
+    <string name="enter_password">Enter your 4 Digit Passcode here</string>
+    <string name="forget_pass">Forgot Passcode?</string>
+    <string name="enter_button">Enter</string>
+    <string name="create_pass">Enter your 4 digit passcode</string>
+    <string name="confirm_pass">Confirm passcode</string>
+    <string name="title_create_pass">Create Passcode</string>
+    <string name="title_enter_pass">Enter Passcode</string>
+
+    <string name="category_info">Category Info</string>
+    <string name="want_to_deleted">Want to delete this Information.</string>
+    <string name="info_deleted">Information has been Deleted</string>
+
+    <string name="new_password">New Passcode</string>
+    <string name="current_password">Current Passcode</string>
+    <!-- <string name="title_activity_main2">Main2Activity</string>
+     <string name="nav_header_title">Android Studio</string>
+     <string name="nav_header_subtitle">android.studio@android.com</string>
+     <string name="nav_header_desc">Navigation header</string>
+     <string name="action_settings">Settings</string>
+
+     <string name="menu_home">Home</string>
+     <string name="menu_gallery">Gallery</string>
+     <string name="menu_slideshow">Slideshow</string>
+     <string name="menu_tools">Tools</string>
+     <string name="menu_share">Share</string>
+     <string name="menu_send">Send</string>-->
+
+
+    <string name="current_password_error">Current password is invalid</string>
+    <string name="current_password_can_not_empty">Current password can not be empty</string>
+    <string name="new_password_error">New Password cannot be blank</string>
+    <string name="four_digit">New Password must be 4 digit</string>
+    <string name="confirm_password_error">Confirm Password cannot be blank</string>
+    <string name="success">Success</string>
+    <string name="password_has_bin_change">Password has been changed successfully</string>
+    <string name="alert">Alert</string>
+    <string name="password_not_match">Password does not match</string>
+
+    <string name="repeat_every">Repeat Every\u005</string>
+    <string name="one_times">1 times</string>
+    <string name="Day">Day</string>
+    <string name="Week">Week</string>
+    <string name="Month">Month</string>
+    <string name="Year">Year</string>
+    <string name="time"> \u0020 times</string>
+
+
+    <string name="alarm_time_error">Alarm time error</string>
+    <string name="pleas_select_valid_time">Please select valid time</string>
+    <string name="pleas_select_due_date_before_set_an_alarm_time">Please select Due date before set an Alarm time</string>
+    <string name="title_error">Title error</string>
+    <string name="title_can_not_be_empty">Title can not be empty</string>
+    <string name="title_length_should_be_three_character">Title length should be 3-15 character</string>
+    <string name="category_error">Category error</string>
+    <string name="please_select_a_category">Please select a Category</string>
+    <string name="payment_error">Payment error</string>
+    <string name="please_select_payment_mode">Please select Payment mode</string>
+    <string name="amount_error">Amount error</string>
+    <string name="amount_can_not_be_empty">Amount can not be empty</string>
+    <string name="zero_anount">"0" amount cannot be inserted</string>
+    <string name="due_date_error">Due date error</string>
+    <string name="please_select_due_date">Please select Due date</string>
+    <string name="please_select_alarm_time">Please select Alarm time</string>
+    <string name="can_not_select_past_time">Can not select past time</string>
+    <string name="notification_error">Notification error</string>
+    <string name="please_select_notification_schedule">Please select Notification schedule</string>
+
+
+    <string name="card_number_error">Card number error</string>
+    <string name="card_number_can_not_be_empty">Card number can not be empty</string>
+    <string name="please_enter_a_valid_card_number">Please enter a valid card number</string>
+    <string name="card_already_exist">Card already exist</string>
+    <string name="card_holder_name_error">Card holder name error</string>
+    <string name="card_holder_name_can_not_be_empty">Card holder name can not be empty</string>
+    <string name="card_holder_name_length_should_be_seven">Card holder Name length should be 7-25 character</string>
+    <string name="please_enter_valid_card_holder_name">Please enter a valid Card holder name</string>
+    <string name="card_validity_error">Card validity error</string>
+    <string name="please_select_card_validity">Please select Card validity</string>
+    <string name="alias_name_error">Alias name error</string>
+    <string name="alias_name_can_not_be_empty">Alias name can not be empty</string>
+    <string name="provider_name_can_not_be_empty">Provider name can not be empty</string>
+    <string name="alias_name_length_should_be_twenty_character">Alias name length should be max 20 characters</string>
+    <string name="mobile_number_error">Mobile number error</string>
+    <string name="mobile_number_can_not_empty">Mobile number can not be empty</string>
+    <string name="mobile_number_length_should_ten_digits">Mobile number length should 10 digits</string>
+
+
+    <string name="bank_error">Bank error</string>
+    <string name="please_select_a_bank">Please select a Bank.</string>
+    <string name="account_number_error">Account number error</string>
+    <string name="account_number_can_not_empty">Account number can not be empty</string>
+    <string name="account_number_length_should_be_eleven">Account number length should be 11-16 digits</string>
+    <string name="account_number_length_should_be_ten">Account number length should be 10 digits</string>
+    <string name="account_number_length_should_be_eight">Account number length should be 8 digits</string>
+    <string name="user_name_error">User name error</string>
+    <string name="user_name_can_not_empty">User name can not be empty</string>
+    <string name="user_name_length_should_be_three_digits">User name length should be 3-15 digits</string>
+    <string name="ifsc_code_error">IFSC code error</string>
+    <string name="ifsc_code_can_not_empty">IFSC code can not be empty</string>
+    <string name="ifsc_code_length_should_eleven_digits">IFSC code length should be 11 digits</string>
+    <string name="invalid_ifsc_code">Invalid IFSC code</string>
+    <string name="bank_url_error">Bank URL error</string>
+    <string name="bank_url_can_not_empty">Bank URL can not be empty</string>
+    <string name="invalid_url">Invalid URL</string>
+
+    <string name="name_error">Name error</string>
+    <string name="name_can_not_empty">Name can not be empty</string>
+    <string name="feedback_can_not_empty">Feedback can not be empty</string>
+    <string name="account_can_not_empty">Account number can not be empty</string>
+    <string name="name_length_should_three_character">Name length should be 3-20 character</string>
+    <string name="email_id_error">Email ID error</string>
+    <string name="email_id_can_not_empty">Email ID can not be empty</string>
+    <string name="invalid_email_id">Invalid email ID</string>
+
+    <string name="provider_error">Provider error</string>
+    <string name="please_select_provider">Please select a Provider</string>
+    <string name="failed">Failed</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="consumer_number_error">Consumer number error</string>
+    <string name="consumer_number_can_not_empty">\u0020can not be empty</string>
+    <string name="consumer_number_length_should_be">\u0020length should be\u005</string>
+    <string name="digits">\u0020 digits</string>
+    <string name="consumer_number_should_be_start_with">\u0020should be start with\u005</string>
+
+    <string name="policy_number_error">Policy number error</string>
+    <string name="policy_number_can_not_be_empty">Policy number can not be empty</string>
+    <string name="agent_name_error">Agent name error</string>
+    <string name="agent_name_can_not_be_empty">Agent name can not be empty</string>
+    <string name="agent_name_length_should_be_three_character">Agent name length should be 3-20 character</string>
+    <string name="policy_number_length_should_be">Policy number length should be\u005</string>
+    <string name="policy_number_should_be_start_with">Policy number should be start with\u005</string>
+
+
+    <string name="landline_number_error">Landline number error</string>
+    <string name="landline_number_can_not_be_empty">Landline number can not be empty</string>
+    <string name="landline_number_length_should_be">Landline number length should be\u005</string>
+    <string name="landline_number_should_be_start_with">Landline number should be start with\u005</string>
+
+
+    <string name="account_no">Account No</string>
+    <string name="sub_provider"> Sub Provider</string>
+    <string name="card_no">Card Number</string>
+    <string name="card_holder">Card Holder</string>
+    <string name="validity">Validity</string>
+    <string name="cvv">CVV</string>
+    <string name="bank_name">Bank Name</string>
+    <string name="username">Username</string>
+    <string name="ifsc">IFSC</string>
+    <string name="url">Url</string>
+    <string name="email">Email</string>
+    <string name="every">Every\u005</string>
+    <string name="until">Until</string>
+    <string name="customer_number">Customer number</string>
+    <string name="connection_id">Connection Id</string>
+    <string name="add_gas">Add Gas</string>
+    <string name="add_water">Add Water Bill</string>
+    <string name="select_gas">Select Gas</string>
+
+    <string name="dismiss">\u0020 DISMISS \u005</string>
+    <string name="edits">\u0020 EDIT \u005</string>
+    <string name="pay_now">PAY NOW</string>
+    <string name="select_payment">Select Payment</string>
+
+    <string name="adani_gas">Adani Gas</string>
+    <string name="aavantika_gas">Aavantika Gas Ltd.</string>
+    <string name="central_up_gas">Central UP Gas</string>
+    <string name="charotar_gas">Charotar Gas Sahakari Mandali Limited</string>
+    <string name="gail_gas">Gail Gas Limited</string>
+    <string name="gujarat_gas">Gujarat Gas</string>
+    <string name="haryana_city_gas">Haryana City Gas - Kapil Chopra Enterprise</string>
+    <string name="indian_oil">Indian Oil Adani Gas Pvt Ltd</string>
+    <string name="indraprasth_gas">Indraprasth Gas</string>
+    <string name="mahanagar_gas">Mahanagar Gas</string>
+    <string name="maharastra_gas">Maharastra Natural Gas Limited</string>
+    <string name="sabarmati_gas">Sabarmati Gas Limited (SGL)</string>
+    <string name="siti_energy">Siti Energy</string>
+    <string name="tripura_natural_gas">Tripura Natural Gas Company Ltd</string>
+    <string name="unique_central_gas">Unique Central Piped Gases Pvt Ltd (UCPGPL)</string>
+    <string name="vadodara_gas">Vadodara Gas Limited</string>
+    <string name="gas_added_successfully">Gas Added Successfully</string>
+    <string name="gas_update_successfully">Gas Updated Successfully</string>
+
+    <string name="bangalore_water">Bangalore Water Supply and Sewerage Board</string>
+    <string name="bhopal_municipal_water">Bhopal Municipal Corporation - Water</string>
+    <string name="delhi_jal_board">Delhi Jal Board</string>
+    <string name="greater_warangle_water">Greater Warangal Municipal Corporation - Water</string>
+    <string name="gwalior_municipal_water">Gwalior Municipal Corporation - Water</string>
+    <string name="haryana_urban_water">Haryana Urban Development Authority - Water Bill</string>
+    <string name="hyderabad_metropolitan_water">Hyderabad Metropolitan Water Supply and Seweral Board</string>
+    <string name="indore_municipal_water">Indore Municipal Corporation - Water</string>
+    <string name="jabalpur_municipal_water">Jabalpur Municipal Corporation - Water</string>
+    <string name="ludhiana_municipal_water">Ludhiana Municipal Corporation</string>
+    <string name="municipal_corporation_jalandhar">Municipal Corporation Jalandhar</string>
+    <string name="municipal_corporation_gurugram">Municipal Corporation of Gurugram</string>
+    <string name="new_delhi_municipal">New Delhi Municipal Council (NDMC) - Water</string>
+    <string name="phed_rajasthan">PHED - Rajasthan</string>
+    <string name="pune_municipal_corporation">Pune Municipal Corporation - Water</string>
+    <string name="uit_bhiwadi">UIT Bhiwadi</string>
+    <string name="ujjain_nagar_nigam">Ujjain Nagar Nigam - PHED</string>
+    <string name="uttarakhand_jal_sansthan">Uttarakhand Jal Sansthan</string>
+    <string name="select_sub_provider">Please select Sub provider from Provider list</string>
+    <string name="contact_us_mail">Contact us</string>
+    <string name="err_please_fill_feedback">Please fill Feedback</string>
+    <string name="four_digit_passcode">Enter your four digit passcode</string>
+    <string name="asked_passcode">You will be asked it every time for security purpose.</string>
+    <string name="validate_passcode">Please enter valid passcode</string>
+    <string name="forgot_passcode">Forgot passcode?</string>
+    <string name="enter_provider_name">Enter Provider name</string>
+    <string name="hint_feedback_name">Name</string>
+
+
+    <string name="owner_name_length_should_be_three_character">Owner name length should be 3-20 character</string>
+    <string name="hint_feedback_mail">Email ID</string>
+    <string name="hint_feedback">Feedback</string>
+    <string name="title_feedback_activity">Feedback</string>
+    <string name="msg_feedback">Message:</string>
+    <string name="note1">A: There are several reasons. You may check settings follows:</string>
+    <string name="note2"><![CDATA[1.Is you reminder start & end time set appropriately?]]></string>
+    <string name="note3">2.Have you enebled Remind Me to auto-start on your phone?</string>
+    <string name="note4">3.Have you installed third-party apps like CleanMaster which may prohibit Remind Me running in background and send notifications?</string>
+    <string name="note5">4.Have you turned off the reminder?</string>
+    <string name="note6">5.Please make sure that you don\'t prevent the alarms from working with a battery saver app, a task killer app. These apps always have an option like "Ignore list" or "whiteList". You have to add app into it to allow app to work. </string>
+    <string name="note7">6.Don\'t prevent Alarms from \'Stamina Mode\' settings, battery saver app or a task killer app.</string>
+    <string name="note8">7.If the app is installed on the SD card, your widget, reminder, etc. will not work properly because Android doesn\'t support these features when installed on an SD card! If you have already moved the app to an SD card, but want those features, then you have to move the app back on the device and reboot your phone.</string>
+    <string name="note9">8.Some manufacturers (eg Huawei) use very restrictive battery optimizations. If you notice that some reminders are late or may not appear at all, you can exclude Remind Me from battery optimization on the settings screen.</string>
+    <string name="note10">9.If you have any battery saving apps installed or the Doze mode enabled(Android 6.0+) on your device, please make sure to whitelist this Reminder app to ensure the correct work of it.(Is required only on certain devices)</string>
+    <string name="why_doesn_t_the_reminder_work">Q: Why doesn\'t the Reminder work?</string>
+    <string name="connected">Connected to Internet</string>
+    <string name="check_connection">Checking network connection</string>
+    <string name="wait">Please wait a moment... </string>
+
+
+    //----------------------------for walkthrough-----------------------
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">Home Page</string>
+    <string name="slide_1_desc">There are Home Page of our "Remind Me" App!</string>
+    <string name="slide_2_title">Add Reminder\'s</string>
+    <string name="slide_2_desc">User can fill all the Information and Create Reminderes!</string>
+    <string name="slide_3_title">Select Categores</string>
+    <string name="slide_3_desc">User Select any Category and fill all field and click on the button!</string>
+    <string name="slide_4_title">Select Payment Option</string>
+    <string name="slide_4_desc">User Select any Payment Option and fill all field and click on the button!</string>
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+</resources>

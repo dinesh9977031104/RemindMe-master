@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="dialogBoxStyle" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:background">?attr/backgroundcolor</item>
+        <item name="android:textColor">?attr/textcolor</item>
+        <item name="android:textColorAlertDialogListItem">?attr/textcolor</item>
+        <item name="android:textColorSecondary">?attr/textcolor</item>
+        <item name="android:textColorPrimary">?attr/textcolor</item>
+        <item name="colorAccent">?attr/textcolor</item>
+        <item name="android:typeface">normal</item>
+    </style>
+</resources>
